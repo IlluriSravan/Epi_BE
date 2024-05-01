@@ -1,3 +1,20 @@
+###DATABASE SCHEMA
+1.Users Table
+Column	  | Data     |  Type	                |  Description
+id	      | INTEGER	 | Primary key,           | auto-incrementing
+username	| TEXT	   |                        |   Username of the user 
+password	| TEXT	   |                        |   Password of the user 
+
+
+2.Tasks Table
+Column	   |  Data    | Type	            |  Description
+id	       |  INTEGER |	Primary key,      | auto-incrementing
+title      |  TEXT	  |                   |  Title of the task
+description|	 TEXT	  |                   |  Description of the task
+status	   |  TEXT	  |                   |  Status of the task
+assignee_id|	 INTEGER|	                  |  ID of the user to whom the task is assigned
+
+
 # Epi_BE
 ##Register a User Endpoint
 
